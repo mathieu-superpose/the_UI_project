@@ -11062,6 +11062,14 @@ width: 100%;*/
   text-align: center;
 }
 
+.ui_title_icons {
+  height: 30px;
+}
+
+.ui_title_icons_list {
+  justify-content: center;
+}
+
 .ui_title_links {
   display: inline-block;
 }
