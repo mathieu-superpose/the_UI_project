@@ -10993,9 +10993,9 @@ a.text-dark:hover, a.text-dark:focus {
 
 footer {
 
-position: absolute;
+/*position: absolute;
 bottom: 0;
-width: 100%;
+width: 100%;*/
 
 }
 
@@ -11062,6 +11062,18 @@ width: 100%;
   text-align: center;
 }
 
+.ui_title_links {
+  display: inline-block;
+}
+
+.ui_title_links p {
+  display: inline-block;
+}
+
 #divlink {
   cursor: pointer;
+}
+
+.index_row {
+  justify-content: center;
 }
