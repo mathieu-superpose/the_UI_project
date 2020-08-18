@@ -72,6 +72,7 @@ body {
   background-color: #fff;
 }
 
+
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important;
 }
@@ -592,8 +593,6 @@ pre code {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
 }
 
 .no-gutters {
@@ -10992,6 +10991,14 @@ a.text-dark:hover, a.text-dark:focus {
   color:#dbdae3
 }
 
+footer {
+
+position: absolute;
+bottom: 0;
+width: 100%;
+
+}
+
 .bg-img-hero {
   background: no-repeat top;
   width: 100%;
@@ -11029,9 +11036,18 @@ a.text-dark:hover, a.text-dark:focus {
   text-align: center;
 }
 
+.event-card:hover {
+  box-shadow: 0 0 11px rgba(33,33,33,.2);
+}
+
 .event_card_datetime {
   text-align: center;
   color: #EB7D46;
+}
+
+.event_button_container {
+  justify-content:flex-end;
+  text-align:right;
 }
 
 .event_button_like {
@@ -11044,4 +11060,8 @@ a.text-dark:hover, a.text-dark:focus {
 
 .ui_title {
   text-align: center;
+}
+
+#divlink {
+  cursor: pointer;
 }

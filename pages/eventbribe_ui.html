@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>Eventbribe: UI</title>
+    <link rel="icon" href="../assets/images/eventbribe_favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <link rel="stylesheet" href="css/bootstrap.css" media="screen">
@@ -71,7 +72,7 @@
         </div>
     </div> -->
     <div class="ui_title bg-light">
-        <img src="images/eventbribe.png">
+        <img src="../assets/images/eventbribe.png">
         <h1 id="navbars">The UI Project</h1>
         <p class="text-muted">THP s.13</p>
     </div>
@@ -93,7 +94,7 @@
                             <div class="collapse navbar-collapse" id="navbarColor03">
                                 <ul class="navbar-nav mr-auto">
                                     <li class="nav-item active">
-                                        <a class="nav-link" href="#"><img src="images/eventbribe_logo.png" style="height: 20px"></a>
+                                        <a class="nav-link" href="#"><img src="../assets/images/eventbribe_logo.png" style="height: 20px"></a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="#">Features</a>
@@ -177,7 +178,7 @@
                             <div class="form_logo_circle_container text-center">
                                 <div class="form_logo_container text-center">
                                     <a class=logo_container href="#" aria-label="Space">
-                                        <img class="form_logo mb-3" src="images/eventbribe_logo_neg_s.png" alt="eventbribe logo">
+                                        <img class="form_logo mb-3" src="../assets/images/eventbribe_logo_neg_s.png" alt="eventbribe logo">
                                     </a>
                                     <h1>Inscription</h1>
                                     <p>Compléter les formulaires pour s'enregister</p>
@@ -287,7 +288,7 @@
                     </div>
                     <div class="bs-component">
                         <!-- Hero banner -->
-                        <div class="position-relative bg-img-hero" style="background-image: url(images/banner_BIG.jpeg);">
+                        <div class="position-relative bg-img-hero" style="background-image: url(../assets/images/banner_BIG.jpeg);">
                             <!-- Title -->
                             <div class="">
                                 <div class="container text-center space-2">
@@ -344,7 +345,7 @@
                     </div>
                     <div class="bs-component">
                         <!-- Small banner -->
-                        <div class="position-relative bg-img-small" style="background-image: url(images/banner_small.jpeg);">
+                        <div class="position-relative bg-img-small" style="background-image: url(../assets/images/banner_small.jpeg);">
                             <!-- Title -->
                             <div class="">
                                 <div class="container text-center space-2">
@@ -371,11 +372,13 @@
                         <h2>Carte d'évenement</h2>
                         <div class="bs-component">
                             <!-- event card list-->
-                            <div class="card" style="width: 18rem;">
-                                <img class="card-img-top" src="images/event1.jpg" alt="image ville">
+                            <div id="divlink"onclick="location.href='#';" class="event-card card" style="width: 18rem;">
+                                <img class="card-img-top" src="../assets/images/event1.jpg" alt="image ville">
                                 <div class="card-body bg-light">
-                                    <button type="button" class=" event_button_like btn btn-secondary">♡</button>
-                                    <button type="button" class=" event_button_like btn btn-secondary">♡</button>
+                                    <div class= "event_button_container">
+                                    <button type="button" class="event_button_like btn btn-secondary mr-2">⇥</button>
+                                    <button type="button" class="event_button_like btn btn-secondary">♡</button>
+                                </div>
                                     <p class= "event_card_datetime"><strong>jeu. 3 sept. 2020 20:00 CEST</strong></p>
                                     <h4 class="card-title city_card-title">Marriage détente</h4>
                                 </div>
@@ -386,7 +389,7 @@
                         <div class="bs-component">
                             <!-- attendant card list-->
                             <div class="media text-muted pt-3 bg-light">
-                                <img data-src="holder.js/32x32?theme=thumb&amp;bg=007bff&amp;fg=007bff&amp;size=1" alt="32x32" class="mr-2 rounded" style="width: 32px; height: 32px;" src="images/profile1.png" data-holder-rendered="true">
+                                <img data-src="holder.js/32x32?theme=thumb&amp;bg=007bff&amp;fg=007bff&amp;size=1" alt="32x32" class="mr-2 rounded" style="width: 32px; height: 32px;" src="../assets/images/profile1.png" data-holder-rendered="true">
                                 <p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
                                     
                                     <strong class="d-block text-gray-dark">@don_jean-boris</strong>
@@ -400,7 +403,7 @@
                         <div class="bs-component">
                             <!-- city card list-->
                             <div class="card" style="width: 18rem;">
-                                <img class="card-img-top" src="images/city1.jpg" alt="image ville">
+                                <img class="card-img-top" src="../assets/images/city1.jpg" alt="image ville">
                                 <div class="card-body bg-light">
                                     <h4 class="card-title city_card-title">Marseille</h4>
                                     <p class="city_card-text">Le milieu, les corso-italiens, les « néo-parrains des cités », les politques…<br>À toi les marriages endiablés, les tournois de poker et les déjeuners d'affaires sur le vieux port!</p>
@@ -414,6 +417,22 @@
                     </div>
                 </div>
             </div>
+            <!-- Organisms
+      ================================================== -->
+        <div class="bs-docs-section clearfix">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="page-header">
+                        <h1 id="footers">Organisms</h1>
+                    </div>
+                    <div class="bs-component">
+                        <!-- footer -->
+                        
+                        <!-- End Footer -->
+                    </div>
+                </div>
+            </div>
+        </div>
             <!-- Buttons
       ================================================== -->
             <div class="bs-docs-section">
@@ -1667,7 +1686,7 @@
         <script src="../_vendor/jquery/dist/jquery.min.js"></script>
         <script src="../_vendor/popper.js/dist/umd/popper.min.js"></script>
         <script src="../_vendor/bootstrap/dist/js/bootstrap.min.js"></script>
-        <script src="../_assets/js/custom.js"></script>
+        <script src="../_../assets/js/custom.js"></script>
 </body>
 
 </html>
