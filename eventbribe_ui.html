@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <div class="navbar navbar-expand-lg fixed-top navbar-dark bg-primary">
+    <!-- <div class="navbar navbar-expand-lg fixed-top navbar-dark bg-primary">
         <div class="container">
             <a href="#" class="navbar-brand">Bootswatch</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -69,21 +69,13 @@
                 </ul>
             </div>
         </div>
+    </div> -->
+    <div class="ui_title bg-light">
+        <img src="images/eventbribe.png">
+        <h1 id="navbars">The UI Project</h1>
+        <p class="text-muted">THP s.13</p>
     </div>
     <div class="container">
-        <!-- <div class="page-header" id="banner">
-        <div class="row">
-          <div class="col-lg-8 col-md-7 col-sm-6">
-            <h1>Flatly</h1>
-            <p class="lead">Flat and modern</p>
-          </div>
-          <div class="col-lg-4 col-md-5 col-sm-6">
-            <div class="sponsor">
-              <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CKYIE23N&placement=bootswatchcom" id="_carbonads_js"></script>
-            </div>
-          </div>
-        </div>
-      </div> -->
         <!-- Navbar
       ================================================== -->
         <div class="bs-docs-section clearfix">
@@ -93,6 +85,7 @@
                         <h1 id="navbars">Navbar</h1>
                     </div>
                     <div class="bs-component">
+                        <!-- Navbar -->
                         <nav class="navbar navbar-expand-lg navbar-light bg-light">
                             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
                                 <span class="navbar-toggler-icon"></span>
@@ -128,6 +121,7 @@
                                 </form>
                             </div>
                         </nav>
+                        <!-- End Navbar -->
                     </div>
                 </div>
             </div>
@@ -141,9 +135,10 @@
                         <h1 id="footers">Footer</h1>
                     </div>
                     <div class="bs-component">
+                        <!-- footer -->
                         <div class="footer_base">
                             <div class="footer_copyright text-muted">©
-                                <!-- -->2020 Eventbribe</div><br>
+                                2020 Eventbribe</div><br>
                             <div class="footer_links">
                                 <ul class="footer_list">
                                     <li class="footer_list_item"><a href="#" class="footer_link">Comment ça marche</a></li>
@@ -163,6 +158,7 @@
                                 </ul>
                             </div>
                         </div>
+                        <!-- End Footer -->
                     </div>
                 </div>
             </div>
@@ -343,7 +339,6 @@
                         </div>
                         <!-- End Hero banner -->
                     </div>
-
                     <div class="page-header">
                         <h2>Petite bannière</h2>
                     </div>
@@ -376,17 +371,45 @@
                         <h2>Carte d'évenement</h2>
                         <div class="bs-component">
                             <!-- event card list-->
-                            <!-- end event card -->
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="images/event1.jpg" alt="image ville">
+                                <div class="card-body bg-light">
+                                    <button type="button" class=" event_button_like btn btn-secondary">♡</button>
+                                    <button type="button" class=" event_button_like btn btn-secondary">♡</button>
+                                    <p class= "event_card_datetime"><strong>jeu. 3 sept. 2020 20:00 CEST</strong></p>
+                                    <h4 class="card-title city_card-title">Marriage détente</h4>
+                                </div>
+                            </div>
                         </div>
+                            <!-- end event card -->
                         <h2>Carte de participant</h2>
                         <div class="bs-component">
                             <!-- attendant card list-->
+                            <div class="media text-muted pt-3 bg-light">
+                                <img data-src="holder.js/32x32?theme=thumb&amp;bg=007bff&amp;fg=007bff&amp;size=1" alt="32x32" class="mr-2 rounded" style="width: 32px; height: 32px;" src="images/profile1.png" data-holder-rendered="true">
+                                <p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+                                    
+                                    <strong class="d-block text-gray-dark">@don_jean-boris</strong>
+                                    Tout juste décoffré, je brille comme un lingot neuf.
+                                </p>
+                            </div>
+                        
                             <!-- end attendant card -->
                         </div>
                         <h2>Carte de ville</h2>
                         <div class="bs-component">
-                            <!-- attendant card list-->
-                            <!-- end attendant card -->
+                            <!-- city card list-->
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="images/city1.jpg" alt="image ville">
+                                <div class="card-body bg-light">
+                                    <h4 class="card-title city_card-title">Marseille</h4>
+                                    <p class="city_card-text">Le milieu, les corso-italiens, les « néo-parrains des cités », les politques…<br>À toi les marriages endiablés, les tournois de poker et les déjeuners d'affaires sur le vieux port!</p>
+                                </div>
+                                <footer class="city_card-footer bg-light">
+                                    <p class="text-muted">15 évenements à venir</p>
+                                </footer>
+                            </div>
+                            <!-- end city card -->
                         </div>
                     </div>
                 </div>
