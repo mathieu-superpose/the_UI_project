@@ -10991,3 +10991,27 @@ a.text-dark:hover, a.text-dark:focus {
 .footer_list_item a{
   color:#dbdae3
 }
+
+.bg-img-hero {
+  background: no-repeat top;
+  width: 100%;
+  height: 100%;
+  background-size: 100%;
+}
+
+.bg-img-small {
+  background: no-repeat center;
+  width: 100%;
+  height: 100%;
+  background-size: 100%;
+}
+
+.banner_filters_container {
+  /*margin: auto;*/
+  justify-content: center;
+}
+
+.banner_filters {
+  /*margin: auto;*/
+  justify-content: center;
+}
