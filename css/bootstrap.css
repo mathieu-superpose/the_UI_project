@@ -11085,3 +11085,11 @@ width: 100%;*/
 .index_row {
   justify-content: center;
 }
+
+.comment_text_layout {
+  display: inline-block;
+}
+
+.comment_button {
+  border-radius: 50%;
+}
